@@ -86,7 +86,7 @@ async function salvar(){
     ]);
 
   if(error){
-    alert('Erro ao salvar');
+    alert(JSON.stringify(error));
     console.log(error);
   }else{
     alert('Cadastro salvo com sucesso');
